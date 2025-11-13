@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_freetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\freetype\imgui_freetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="impl\includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\skcrypt\skcrypter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\utility\exception\exception.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\entities\lists\lists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\player\player.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\unreal\core\math\math.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\unreal\core\sdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\unreal\engine\engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\unreal\engine\enums\enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\unreal\engine\structs\structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\unreal\unreal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\enviroment\enviroment.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\targeting\targeting.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\entities\world\world.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\unreal\engine\functions\functions.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\config\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\font\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\tracers\tracers.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\images.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\radar\radar.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\chams\chams.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\config\json\json.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\zone\zone.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\utility\utility.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\entities\raycast\raycast.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\drawing\interface\esp\esp.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\drawing\overlay\overlay.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\targeting\core\scoring.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\targeting\core\selection.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\targeting\core\target.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\targeting\prediction\prediction.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\targeting\smoothing\curves.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\targeting\smoothing\smoothing.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\targeting\triggerbot\triggerbot.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\targeting\weapon\weapon.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\font\icomoon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\bytes\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_freetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\features\ring\ring.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\bytes\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\drawing\interface\widgets\particle.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\drawing\interface\widgets\progress.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\hexrays\hexrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\utility\logger\logger.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\drawing\interface\widgets\message.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\parser\parser.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\parser\player\player.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\parser\player\weapon.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\joyshock\joyshock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\entities\cache\cache.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\parser\auth\auth.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\drawing\interface\widgets\dashboard.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\parser\auth\cache\cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\parser\auth\profile.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\font\awesome-font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\blur\blur.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\drawing\interface\widgets\widgets.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\drawing\interface\widgets\notification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\drawing\interface\widgets\menu.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\controller\controller.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\drawing\interface\widgets\arraylist.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\config\config.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\freetype\imgui_freetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\driver\driver.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\wdk\wdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\ia32\ia32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="workspace\game\drawing\loop\loop.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="dependencies\joyshock\JoyShockLibrary.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\joyshock\JoyShockLibrary.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="impl\syscall\syscall.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
